@@ -5,6 +5,10 @@
     font-size: 20px;
 }
 
+body {
+    background-color: #ffeeee1a;
+}
+
 h1 {
     font-size: 2.5em;
     line-height: 1.2em;
@@ -14,6 +18,7 @@ h1 {
 h3 {
     font-size: 1.3em;
     margin-bottom: 30px;
+    color: orangered;
 }
 
 h4 {
@@ -26,7 +31,7 @@ p {
 }
 
 em {
-    font-size: .8em;
+    font-size: .7em;
 }
 
 section {
@@ -41,7 +46,7 @@ section {
 }
 
 section#hero {
-    background-image: url(images/donation5.jpg);
+    background-image: url(images/hero-cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -140,9 +145,20 @@ input#donation {
     width: 100%;
 }
 
+.volunteer h4 {
+    margin-bottom: -5px;
+}
+
 blockquote {
     font-size: .8em;
     margin-bottom: 35px;
+}
+
+cite {
+    display: block;
+    text-align: center;
+    font-size: .9em;
+    margin-top: 5px;
 }
 
 .photo {
@@ -160,7 +176,6 @@ form {
 }
 
 form input#email {
-    background-color: #aa9f9f80;
     padding: 0 10px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -172,6 +187,7 @@ form input#submit {
     background-color: orangered;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    cursor: pointer;
 }
 
 footer {
