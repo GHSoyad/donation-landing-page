@@ -6,7 +6,8 @@
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.5em;
+    line-height: 1.2em;
     margin: 20px auto;
 }
 
@@ -81,9 +82,13 @@ a {
     margin: 40px 10px;
     width: 100px;
     background-color: aliceblue;
+    border: 2px solid aquamarine;
     border-radius: 10px;
     text-align: center;
     padding: 25px 0 20px;
+    font-size: 1em;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .plan.active {
